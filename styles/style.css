@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    background-color: wheat;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+}
+
+/*.container-item{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    margin: 10px;*/
+/*    border: 3px solid black;*/
+/*    background-color: blue;*/
+/*}*/
+.jemmie{
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: orange;
+    flex-shrink: 1;
+}
+.container-item-1{}
+
+.control{
+    min-height: 200px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: blue;
+}
+.container-item-2{}
+
+.cap{
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    /*flex-grow: 1;*/
+    background-color: chartreuse;
+}
+.container-item-3{}
+
+.stone{
+    min-height: 200px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    /*flex-grow: 2;*/
+    background-color: brown;
+}
+.container-item-4{}
+
+.keep{
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: darkmagenta;
+}
+.container-item-5{}
+
+.lamb{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.container-item-6{}
+
+.fox{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
+.container-item-7{}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: coral;
+}
+.container-item-7{}
+
+.jam{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: darkkhaki;
+}
+.container-item-8{}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: darkgreen;
+}
+.container-item-9{}
+
+.fat{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: fuchsia;
+}
+.container-item-10{}
+
+.cast{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: mediumslateblue;
+}
+.container-item-11{}
+
+.lamp{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: lime;
+}
+.container-item-12{}
+
+.perry{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: deeppink;
+}
+.container-item-13{}
+
+.lake{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: gold;
+}
+.container-item-14{}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    /*flex-direction: column;*/
+    background-color: midnightblue;
+
+}
+.item{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid white;
+    background-color: lightseagreen;
+
+}
